@@ -1,12 +1,32 @@
-# React + Vite
+# Signup Form – React + Vite + Firebase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a basic signup form built using React (with Vite) and Firebase Realtime Database.  
+It lets users submit their name, email, and password, does a password match check, and stores the data in Firebase. Also has a button to fetch all stored entries.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech used
 
-## Expanding the ESLint configuration
+- React (Vite)
+- CSS for styling
+- Axios for API calls
+- Firebase for hosting + Realtime DB
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Live Site
+
+Check it out here:  
+https://signup-4a572.web.app
+
+---
+
+## What it does
+
+- Takes user input: name, email, password
+- Checks if passwords match before submitting
+- Sends data to Firebase Realtime Database
+- Has a "Get Data" button that logs all stored data to the console
+- Hosted on Firebase
+
+---
