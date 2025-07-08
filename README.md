@@ -2,14 +2,14 @@
 
 ## Signup Form – React + Vite + Firebase
 
-This is a basic signup form built using React (with Vite) and Firebase Realtime Database.  
+This is a basic signup form built using React + Vite and Firebase Realtime Database.  
 It lets users submit their name, email, and password, does a password match check, and stores the data in Firebase. Also has a button to fetch all stored entries.
 
 ---
 
 ## Tech used
 
-- React (Vite)
+- React + Vite
 - CSS for styling
 - Axios for API calls
 - Firebase for hosting + Realtime DB
